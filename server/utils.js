@@ -8,3 +8,8 @@ export async function loadData(name) {
     });
   });
 }
+
+export function minToHours(minutes) {
+  if (!minutes) return 0;
+  return Math.floor(minutes / 60);
+}
