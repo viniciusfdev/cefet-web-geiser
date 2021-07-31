@@ -21,5 +21,6 @@
   "homepage": "https://github.com/viniciusfdev/cefet-web-geiser#readme",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "type": "module"
 }
